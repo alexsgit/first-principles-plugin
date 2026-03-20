@@ -1,0 +1,9 @@
+{
+  "name": "first-principles",
+  "description": "A structured first principles thinking toolkit. Breaks down any topic, business problem, codebase, or learning subject by stripping inherited assumptions layer by layer until only provably true foundations remain, then rebuilds understanding from scratch. Includes optional add-on frameworks: inversion thinking, second-order effects, and pre-mortem analysis.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Aleksandar",
+    "email": "aleksandar@teamcodery.com"
+  }
+}
