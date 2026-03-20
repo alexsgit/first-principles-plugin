@@ -38,7 +38,7 @@ Each skill also supports these on request:
 /plugin install first-principles@marketplace-name
 
 # From GitHub
-/plugin marketplace add your-username/first-principles-plugin
+/plugin marketplace add alexsgit/first-principles-plugin
 /plugin install first-principles
 
 # Local testing
