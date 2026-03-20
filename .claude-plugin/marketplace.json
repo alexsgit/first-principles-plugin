@@ -10,7 +10,7 @@
     {
       "name": "first-principles",
       "description": "A structured first principles thinking toolkit. Breaks down any topic, business problem, codebase, or learning subject by stripping inherited assumptions layer by layer until only provably true foundations remain, then rebuilds understanding from scratch.",
-      "source": "."
+      "source": "./plugins/first-principles"
     }
   ]
 }
