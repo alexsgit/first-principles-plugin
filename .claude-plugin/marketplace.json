@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "first-principles",
+  "description": "First principles thinking toolkit and frameworks",
+  "owner": {
+    "name": "Aleksandar",
+    "email": "aleksandar@teamcodery.com"
+  },
+  "plugins": [
+    {
+      "name": "first-principles",
+      "description": "A structured first principles thinking toolkit. Breaks down any topic, business problem, codebase, or learning subject by stripping inherited assumptions layer by layer until only provably true foundations remain, then rebuilds understanding from scratch.",
+      "source": "."
+    }
+  ]
+}
