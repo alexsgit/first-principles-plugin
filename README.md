@@ -63,4 +63,4 @@ claude --plugin-dir ./first-principles-plugin
 
 ## Author
 
-Built by Aleksandar @ Team Codery
+Built by Aleksandar @ Several Agents VCC
