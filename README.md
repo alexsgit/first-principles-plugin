@@ -64,3 +64,26 @@ claude --plugin-dir ./first-principles-plugin
 ## Author
 
 Built by Aleksandar @ Several Agents VCC
+
+## First Principles Learning App
+
+The repository also contains an independent browser-based learning app in `app/`. It is a separate React, Vite, and Three.js project; the Claude/Cowork plugin and its skills remain unchanged.
+
+### Run locally
+
+```bash
+cd app
+npm install
+npm run dev
+```
+
+Create a production build with `npm run build` from `app/`, or preview one with `npm run preview`.
+
+### Content, scenes, and sources
+
+- The first-release catalog in `app/src/data/topics.js` is a curated starter set spanning physics, neuroscience, biology, chemistry, engineering, and everyday objects. Add topics there as the catalog grows; the app does not claim exhaustive coverage.
+- A topic provides its own guided explanations, component descriptions, Wikipedia article title, and scene primitives. Scene dimensions and shapes are teaching aids, not automatically extracted article data or scientific geometry. Keep conceptual visualizations and analogies explicitly labeled.
+- Wikipedia's public search API supports topic discovery. Article background summaries are fetched separately and link back to the source article. When reusing or adapting Wikipedia text, preserve attribution and the applicable CC BY-SA terms.
+- Curated explanations and visual interpretations are distinct from fetched Wikipedia background. Do not imply Wikipedia generated or verified a scene.
+
+The app requires an internet connection for Wikipedia search/summaries and Google Fonts. If the Wikipedia API is unavailable, search and article panels show an error while the curated catalog and scenes remain usable.
